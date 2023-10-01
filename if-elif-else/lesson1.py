@@ -1,15 +1,15 @@
 a, b = int(input()), int(input())
 s = input()
-if s == '+':
+if s == "+":
     print(a + b)
-elif s == '-':
+elif s == "-":
     print(a - b)
-elif s == '*':
+elif s == "*":
     print(a * b)
-elif s == '/':
+elif s == "/":
     if b == 0:
-        print('На ноль делить нельзя!')
+        print("На ноль делить нельзя!")
     else:
         print(a / b)
 else:
-    print('Неверная операция')
+    print("Неверная операция")
